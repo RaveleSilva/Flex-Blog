@@ -13,6 +13,12 @@ img{
   height: auto;
 }
 
+p{
+  font-size: 20px;
+  color: #7c6d6d;
+  max-width: 36ch;
+}
+
 .container{
   max-width: 950px;
   margin: auto;
@@ -67,13 +73,35 @@ nav a{
 }
 
 .titulo {
-  padding: 50px 10px;
+  padding: 60px 10px;
   border-bottom: 2px solid #2C70FF;
 }
 
-.titulo h1{
+.titulo h1, h2{
   font-size: 48px;
   color: #222222;
   max-width: 20ch;
   line-height: 1;
 }
+
+#Sobre{
+  padding: 60px 10px;
+  display: flex;
+  gap: 30px;
+  border-bottom: 2px solid #2C70FF;
+}
+
+.sobre-text h2{
+  margin-bottom: 30px;
+}
+
+.sobre-text p{
+  margin-bottom: 15px;
+}
+
+.sobre-img{
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
