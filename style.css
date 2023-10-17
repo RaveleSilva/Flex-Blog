@@ -105,3 +105,8 @@ nav a{
   gap: 30px;
 }
 
+@media (max-width: 950px) {
+  #Sobre{
+    flex-wrap: wrap;
+  }
+}
