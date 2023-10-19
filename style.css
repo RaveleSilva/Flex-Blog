@@ -211,7 +211,7 @@ nav a{
   border-radius: 50%;
 }
 
-button{
+#precos button{
   width: max-content;
   margin: auto;
   font-size: 36px;
@@ -261,8 +261,60 @@ button{
   background-color: #66D9EB;
 }
 
+#newsletter{
+  background-color: #F7F7F7;
+}
+
+.newsletter{
+  padding: 50px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.newsletter-text h1{
+  font-size: 3rem;
+  color: #A4A4A4;
+}
+
+.newsletter-text p{
+  max-width: 18ch;
+}
+
+.newsletter-input{
+  display: flex;
+  border: 4px solid #2C70FF;
+}
+
+.newsletter-input input{
+  border: none;
+  padding: 28px 16px;
+  min-width: 240px;
+}
+
+.newsletter-input input::placeholder{
+  font-size: 20px;
+}
+
+.newsletter-input button{
+  font-size: 2.25rem;
+  color: white;
+  background-color: #2C70FF;
+  border: none;
+  padding: 15px 20px;
+  font-weight: 700;
+}
+
 @media (max-width: 950px) {
   #Sobre{
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 550px) {
+  .newsletter-input{
+    flex-direction: column;
   }
 }
